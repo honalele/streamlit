@@ -2,9 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-st.title("Streamlit 初めてのホームページ")
+st.title("Streamlitホームページ")
 
-st.write("DataFrame")
+st.write("This is a demo of streamlit ")
 
 df = pd.DataFrame({
     "1列目": [1, 2, 3, 4],
