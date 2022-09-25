@@ -34,3 +34,24 @@ st.write("Interactive Widget")
 
 text = st.text_input("あなたの趣味を教えてください。")
 "あなたの趣味：", text, "です。"
+
+
+"""
+### 4. スライド
+"""
+
+conditoin = st.slider("あなたの今の調子は？。", 0, 100, 50)
+"コンディション：", conditoin, "です。"
+
+
+"""
+### 5. サイドバー
+"""
+
+st.write("Interactive Widget")
+
+text = st.sidebar.text_input("あなたの趣味を教えてください。")
+conditoin = st.sidebar.slider("あなたの今の調子は？。", 0, 100, 50)
+"あなたの趣味：", text, "です。"
+"コンディション：", conditoin, "です。"
+
