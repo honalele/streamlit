@@ -51,7 +51,7 @@ st.bar_chart(df)
 ### 4. 地図表示
 """
 df2 = pd.DataFrame(
-    np.random.rand(100,2)/[50,50] +[35.05922, 136.98880],
+    np.random.rand(2,2)/[50,50] +[35.2129, 138.4352],
     columns=['lat', 'lon']
 )
 
